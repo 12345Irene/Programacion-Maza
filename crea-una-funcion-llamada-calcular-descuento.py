@@ -5,5 +5,5 @@ def calculardescuento(monto_total, porcentaje_descuento=10):
 
 
 monto_total_compra: int = 100
-descuento_calculado = calculardescuento(monto_total_compra)
+descuento_calculado: float = calculardescuento(monto_total_compra)
 print(f"El descuento calculado es: {descuento_calculado}")
